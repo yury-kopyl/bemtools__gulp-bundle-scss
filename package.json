@@ -1,0 +1,27 @@
+{
+  "name": "@bemtools/gulp-bundle-scss",
+  "version": "1.0.0",
+  "description": "Create bundle scss file and import in all blocks",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yury-kopyl/bemtools__gulp-bundle-scss"
+  },
+  "keywords": [
+    "bem",
+    "bundle scss",
+    "include scss"
+  ],
+  "author": "Yury Kopyl <yury.kopyl@gmail.com> (https://github.com/yury-kopyl)",
+  "license": "MIT",
+  "dependencies": {
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "mocha": "^5.2.0"
+  }
+}

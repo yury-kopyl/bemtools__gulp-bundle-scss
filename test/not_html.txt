@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body class="page">
+	<header class="page__header header"></header>
+	<section class="page__content content"></section>
+	<footer class="page__footer footer"></footer>
+</body>
+</html>
