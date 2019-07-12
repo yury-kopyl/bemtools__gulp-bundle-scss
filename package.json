@@ -1,6 +1,6 @@
 {
   "name": "@bemtools/gulp-bundle-scss",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Create bundle scss file and import in all blocks",
   "main": "index.js",
   "scripts": {
@@ -21,11 +21,7 @@
     "through2": "^2.0.3"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "mocha": "^6.1.4"
-  },
-  "engines": {
-    "node": "10.16.0",
-    "npm": "6.10.0"
   }
 }
