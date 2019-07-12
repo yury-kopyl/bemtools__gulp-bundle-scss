@@ -41,7 +41,7 @@ module.exports = params => through.obj(function (file, enc, cb) {
 			if ( item.slice(-3) === options.jsSuffix ) {
 				let parsedClassName = item.slice(0, -3);
 				let parsedString = parsedClassName.split('_');
-				let filePath = parsedString.length === 1 ? `${options.blocksPath}/${parsedClassName}/${parsedClassName}.json` : `${options.blocksPath}/${parsedString[0]}/${parsedClassName}.json`;
+				let filePath = parsedString.length === 1 ? `${process.cwd()}/${options.blocksPath}/${parsedClassName}/${parsedClassName}.json` : `${process.cwd()}/${options.blocksPath}/${parsedString[0]}/${parsedClassName}.json`;
 
 				try {
 					let includeClassFromJS = require(filePath);
