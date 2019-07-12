@@ -61,7 +61,7 @@ module.exports = params => through.obj(function (file, enc, cb) {
 			}
 		});
 
-		classes = classes.concat(jsClassList).sort();
+		classes = [... new Set(classes.concat(jsClassList))].sort();
 
 		classes.map(item => {
 			let parsedString = item.split('_');

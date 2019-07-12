@@ -1,4 +1,4 @@
-﻿[![NPM version](https://img.shields.io/badge/npm-1.0.0-blue.svg)](https://www.npmjs.com/package/@bemtools/gulp-bundle-scss)
+﻿[![NPM version](https://img.shields.io/badge/npm-1.0.2-blue.svg)](https://www.npmjs.com/package/@bemtools/gulp-bundle-scss)
 [![Build Status](https://travis-ci.org/yury-kopyl/bemtools__gulp-bundle-scss.svg?branch=master)](https://travis-ci.org/yury-kopyl/bemtools__gulp-bundle-scss)
 
 Create bundle SCSS file with import blocks
